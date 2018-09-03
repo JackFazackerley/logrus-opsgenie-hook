@@ -39,8 +39,10 @@ func main() {
         Priority: alertsv2.P5,
     }
 
+    // uses default message as the alert message
     log.WithField("alert", alert).Error("default message value")
 
+    // WithError is made priority for the alert message
     log.WithField("alert", alert).WithError(fmt.Errorf("made priority")).Error("default message value")
 }
 ```
