@@ -1,4 +1,4 @@
-# OpsGenie Hook for Logrus <img src="http://i.imgur.com/hTeVwmJ.png" width="40" height="40" alt=":walrus:" class="emoji" title=":walrus:" />&nbsp;[![Build Status](https://travis-ci.org/JackFazackerley/logrus-opsgenie-hook.svg?branch=master)](https://travis-ci.org/JackFazackerley/logrus-opsgenie-hook)
+# OpsGenie Hook for Logrus <img src="http://i.imgur.com/hTeVwmJ.png" width="40" height="40" alt=":walrus:" class="emoji" title=":walrus:" />&nbsp;[![Build Status](https://travis-ci.org/JackFazackerley/logrus-opsgenie-hook.svg?branch=master)](https://travis-ci.org/JackFazackerley/logrus-opsgenie-hook)&nbsp;[![godoc reference](https://godoc.org/github.com/JackFazackerley/logrus-opsgenie-hook?status.png)](https://godoc.org/github.com/JackFazackerley/logrus-opsgenie-hook)
 
 This hook is used to send your errors to [OpsGenie](https://www.opsgenie.com/) as an alert. It uses the [opsgenie-go-sdk](https://github.com/opsgenie/opsgenie-go-sdk) to handle the requests. The levels that are blocked by this hook are `log.Error`, `log.Fatal`, and `log.Panic`.
 
